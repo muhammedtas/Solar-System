@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             lstPlanets = findViewById(R.id.lstPlanets);
 
-            PlanetsAdapter adp = new PlanetsAdapter(this,Planet.getAllPlanets()); // holder activity nin kenbdisi
+            PlanetsAdapter adp = new PlanetsAdapter(this,Planet.getAllPlanets());
 
             lstPlanets.setAdapter(adp);
 
